@@ -46,6 +46,18 @@ function Projects() {
           </Col>
 
           <h2 style={{ color: "white" }}>
+          <strong className="purple">Java Full Stack</strong> Projects
+          </h2>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={schoolMate}
+              isBlog={false}
+              title="SchoolMATE"
+              description="Dynamic web application which is sponsored by Z.P School Guhagar No.1 crafted with ReactJS, NodeJS, SpringBoot, and MongoDB. Enjoy real-time school management, intuitive dashboards, task automation, and secure resource handling. Centralized event calendars, seamless communication, and scalable architecture make SchoolMATE the go-to solution for modern education administration. Elevate your school's digital experience with innovation and efficiency. "
+              demoLink="https://jeevan-shikshan-school.netlify.app/"
+            />
+          </Col>
+          <h2 style={{ color: "white" }}>
           <strong className="purple">HTML CSS </strong> Projects
           </h2>
 
@@ -63,17 +75,6 @@ function Projects() {
           <h2 style={{ color: "white" }}>
           <strong className="purple">MERN </strong> Projects
           </h2>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={schoolMate}
-              isBlog={false}
-              title="SchoolMATE"
-              description="Dynamic web application which is sponsored by Z.P School Guhagar No.1 crafted with ReactJS, NodeJS, SpringBoot, and MongoDB. Enjoy real-time school management, intuitive dashboards, task automation, and secure resource handling. Centralized event calendars, seamless communication, and scalable architecture make SchoolMATE the go-to solution for modern education administration. Elevate your school's digital experience with innovation and efficiency. "
-              demoLink="https://schoolmate-git.netlify.app/"
-            />
-          </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={psfms}
