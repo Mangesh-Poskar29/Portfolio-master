@@ -8,6 +8,7 @@ import schoolMate from "../../Assets/Projects/schoolmate.png";
 import lbs from "../../Assets/Projects/lb.png";
 import BMS from "../../Assets/Projects/BMS.png";
 import vruhome from "../../Assets/Projects/VrundavanH.png";
+import b2b from "../../Assets/Projects/B2B.png"
 
 function Projects() {
   return (
@@ -74,7 +75,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={vrundavan}
+              imgPath={b2b}
               isBlog={false}
               title="B2B Ecom"
               description="A robust B2B e-commerce platform inspired by IndiaMart, designed to connect suppliers and buyers for streamlined business transactions. Built with a focus on scalability and ease of use, it offers extensive product listings, secure communication channels, and detailed seller profiles. The platform enables businesses to negotiate deals, manage orders, and track shipments seamlessly. Empower your business growth with an all-in-one solution for wholesale and bulk purchases."
